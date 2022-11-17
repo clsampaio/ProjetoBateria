@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK DO CSS -- COMUNICAÇÃ EXTERNA -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- IMAGEM DO ICONE NA ABA DA URL -->
+    <link rel="shortcut icon" href="./img/headphones.svg.png" type="image/x-icon">
+    <title>Minha Bateria</title>
+</head>
+<body>
+    <h1>MINHA BATERIA 🔉 </h1>
+
+    <!-- DIV CAIXA PRINCIPAL -->
+    <div class="keys">
+        <!-- PRIMEIRA PARTE DIV -->
+        <div class="key" data-key="keyq">Q</div>
+        <div class="key" data-key="keyw">W</div>
+        <div class="key" data-key="keye">E</div>
+        <!-- FIM PEIMEIRA PARTE DIV SECUNDÁRIA -->
+
+        <!-- INÍCIO SEGUNDA PARTE DIV SECUNDÁRIA-->
+        <div class="key" data-key="keyq">A</div>
+        <div class="key" data-key="keyw">S</div>
+        <div class="key" data-key="keye">D</div>
+        <!-- FIM DA SEGUNDA PARTE DIV SECUNDÁRIA-->
+
+        <!-- INÍCIIO TERCEIRA PARTE DIV SECUNDÁRIA -->
+        <div class="key" data-key="keyz">Z</div>
+        <div class="key" data-key="keyx">X</div>
+        <div class="key" data-key="keyc">C</div>
+        <!-- FIM TERCEIRA PARTE DIV SECUNDÁRIA -->
+
+        <!-- CAIXA COMPOSISÃO -->
+        <div class="composer">
+            <input type="text" id="input" placeholder="Faça sua composição">
+            <button>Tocar</button>
+        </div>
+        <!-- RODAPÉ -->
+        <footer>Desenvolvido por ...</footer>
+
+        <!-- TAG DE AUDIO -->
+        <audios src="./sounds/keyq.wav" id="s_keyq"></audios>
+        <audios src="./sounds/keyw.wav" id="s_keyw"></audios>
+        <audios src="./sounds/keye.wav" id="s_keye"></audios> 
+        <!-- -->
+
+        <!-- INÍCIO SEGUNDA PARTE TAG DE AUDIO -->
+        <audios src="./sounds/keya.wav" id="s_keya"></audios>
+        <audios src="./sounds/keys.wav" id="s_keys"></audios>
+        <audios src="./sounds/keyd.wav" id="s_keyd"></audios> 
+        <!-- FIM SEGUNDA PARTE TAG DE AUDIO -->
+
+        <!-- INÍCIO TERCEIRA PARTE TAG DE AUDIO-->
+        <audios src="./sounds/keyz.wav" id="s_keyz"></audios>
+        <audios src="./sounds/keyx.wav" id="s_keyx"></audios>
+        <audios src="./sounds/keyc.wav" id="s_keyc"></audios>
+        <!-- FIM TERCEIRA PARTE TAG DE AUDIO --> 
+
+        <!-- JavaScript - Arquivo das funcionalidades 😎 -->
+        <script src="./javascript/script.js"></script>
+    </div>
+</body>
+</html>
